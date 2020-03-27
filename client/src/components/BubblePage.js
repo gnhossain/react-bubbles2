@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { axiosWithAuth } from '../utils/axiosWithAuth';
-import Bubbles from "./Bubbles";
+// import Bubbles from "./Bubbles";
 import ColorList from "./ColorList";
+import Bubbles from './Potion';
 
 const BubblePage = () => {
   const [colorList, setColorList] = useState([]);
